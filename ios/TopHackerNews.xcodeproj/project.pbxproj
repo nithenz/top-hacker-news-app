@@ -145,7 +145,6 @@
 				6C97AB639B58BBB4B15BBE30 /* Pods-TopHackerNews-TopHackerNewsTests.debug.xcconfig */,
 				1D0AE47A65C8663E3B452821 /* Pods-TopHackerNews-TopHackerNewsTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -432,6 +431,7 @@
 			baseConfigurationReference = 6C97AB639B58BBB4B15BBE30 /* Pods-TopHackerNews-TopHackerNewsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4KG9Z2U873;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -460,6 +460,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 4KG9Z2U873;
 				INFOPLIST_FILE = TopHackerNewsTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -485,6 +486,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4KG9Z2U873;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = TopHackerNews/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -511,6 +513,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4KG9Z2U873;
 				INFOPLIST_FILE = TopHackerNews/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

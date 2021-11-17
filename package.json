@@ -10,8 +10,13 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.6.2",
     "react": "17.0.2",
-    "react-native": "0.66.3"
+    "react-native": "0.66.3",
+    "react-native-feather": "^1.1.2",
+    "react-native-svg": "^12.1.1",
+    "react-redux": "^7.2.6",
+    "timeago.js": "^4.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
@@ -21,6 +26,7 @@
     "@types/react-native": "^0.66.4",
     "@types/react-test-renderer": "^17.0.1",
     "babel-jest": "^26.6.3",
+    "babel-plugin-module-resolver": "^4.1.0",
     "eslint": "^7.14.0",
     "jest": "^26.6.3",
     "metro-react-native-babel-preset": "^0.66.2",
