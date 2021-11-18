@@ -45,14 +45,12 @@ export const fetchTopStories = createAsyncThunk<{stories: StoryItem[]}>(
 );
 
 export const fetchStoryAuthor = createAsyncThunk<
-  {
-    author: User;
-  },
+  {author: User},
   {userId: string},
   {rejectValue: string}
 >(actionName('fetchStoryAuthor'), async ({userId}) => {
   const author = await HackerNewsApi.fetchUser(userId);
-  console.log('user', userId, author.karma);
+
   return {author};
 });
 
