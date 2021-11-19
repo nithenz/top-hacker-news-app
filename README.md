@@ -1,5 +1,5 @@
 # Installation guide
-This is basic react-native-cli setup, which I used to develop on macos environment and running on ios simulator and on my own iPhone.`
+This is a basic react-native-cli setup, which I used to develop on macos environment and running on ios simulator and on my own iPhone.`
 
 `yarn install`
 `yarn start` and then
